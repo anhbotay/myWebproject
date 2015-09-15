@@ -1,0 +1,69 @@
+html, body{
+	width:100%;
+	height:80%;
+	margin:0px auto;
+}
+#navbar{
+	margin-top:2%;
+}
+#navbar, ul{
+	width:60%;
+	margin-left:33%;
+}
+#navbar, ul, em, li{
+	zoom:1.1;
+	display:inline-block;
+	margin-right:5%;
+}
+a{
+	cursor:pointer;
+	text-decoration:none;
+}
+#register_form{
+	width:40%;
+	margin-left:8%;
+	margin-top:-1.3%;
+}
+
+h1{
+	text-align:center;
+}
+
+h1,p, a{
+	color:#A8A8A8;
+}
+input{
+	zoom:1.7;
+	cursor:text;
+	margin-top:4%;
+}
+input:focus{
+	outline-width:thin;
+}
+input:focus::-webkit-input-placeholder { 
+	opacity:0.5;
+}
+label{
+	zoom:1.4;
+	color:#A8A8A8;
+}
+button{
+	zoom:2;
+	width:100%;
+	cursor:pointer;
+	color:#A8A8A8;
+	margin-top:3%;
+}
+#login_form{
+	float:right;
+	margin-top:-31%;
+	width:40%;
+	margin-right:8%;
+	height:88%;
+}
+textarea {
+	width:99%;
+    resize: none;
+    margin-top:3%;
+    height:50%;
+}
